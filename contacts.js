@@ -42,6 +42,12 @@ export async function addContact({ name, email, phone }) {
     email,
     phone,
   };
+  const isExist = contacts.find(
+    (contact) => contact.name.toLowerCase() === newContact.name.toLowerCase()
+  );
+  if (isExist) {
+    return `${newContact.name} is already in contacts!`;
+  }
   contacts.push(newContact);
   await updateContacts(contacts);
   return newContact;
