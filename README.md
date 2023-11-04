@@ -5,3 +5,4 @@
 # Додаємо контакт та виводимо в консоль об'єкт новоствореного контакту
 ![add](https://github.com/Marini23/goit-nodejs-hw-01/assets/126054841/dde7bb74-f5fd-4b46-ae2b-3e9e116ea808)
 # Видаляємо контакт та виводимо в консоль об'єкт видаленого контакту або null, якщо контакту з таким id не існує.
+![remove](https://github.com/Marini23/goit-nodejs-hw-01/assets/126054841/67108410-c600-4cce-bb3a-b128de24b443)
